@@ -1,0 +1,235 @@
+@media all and (max-width:440px){
+    .container{
+     width:100%;
+    } 
+  
+    body{
+        height: 100%;
+        width: 440px;
+        display: block;
+        margin: 0;
+        font-family: sans-serif;
+        background: linear-gradient(90.3deg, #0C71CA 0.71%, #64BCE2 99.64%);
+  
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    .c1499{
+      display: none;
+    }
+  
+    .navigation{
+      position: fixed;
+      bottom: 10px;
+      left: 98px;
+      width: 244px;
+      height: 50px;
+      background: #ffffff;
+      border-radius: 50px;
+      z-index: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    a{
+      text-decoration: none;
+    }
+  
+    hr{
+      display: block;
+    }
+  
+    .nav1{
+      width: 30px;
+      height: 30px;
+      border: none;
+      background-image: url('images/рейтинг.png');
+      z-index: 1;
+      background-size: 28px 29px;
+      background-color: #ffffff;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+    }
+  
+    .nav2{
+      width: 30px;
+      height: 30px;
+      border: none;
+      background-image: url('images/info.png');
+      z-index: 1;
+      background-size: 28px 29px;
+      background-color: #ffffff;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+    }
+  
+    .nav3{
+      width: 30px;
+      height: 30px;
+      border: none;
+      background-image: url('images/support.png');
+      z-index: 1;
+      background-size: 28px 29px;
+      background-color: #ffffff;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+    }
+  
+  
+    
+    .header{
+      background: #fffbfb;
+      height: 62px;
+      width: 230px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    
+    .head{
+        display: none;
+    }
+    
+    .vkl{
+        background: transparent;
+        font-size: 18px;
+        color: #ffffff;
+        border: none;
+    }
+    
+    .vkl:hover{
+        margin-bottom: 10px;
+    }
+    
+    .vkl:active{
+        color: rgb(100, 100, 100)
+    }
+
+    .s1499{
+      position: absolute;
+  width: 151px;
+  height: 70px;
+  left: 163px;
+  top: -6px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 74px;
+  
+  background: linear-gradient(180deg, #FFFFFF 31.61%, #1B2ED7 53.12%, #FF0000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+    .people_info{
+        margin-top: 50px;
+        min-height: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 440px;
+    }
+    
+    .student{
+        width: 342px;
+        height: 430px;
+        margin-left: 50px;
+    }
+    
+    .student_info{
+        width: 400px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .info{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: #ffffff;
+        text-shadow: 1px 1px 2px black;
+    }
+    
+    .info1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .info2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .info3{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .info4{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .students{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 2500px;
+      margin-top: 50px;
+  }
+  
+  .studentt{
+      width: 430px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: #FFFFFF;
+      text-align: center;
+  }
+  
+  .name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+      margin-top: 7px;
+  }
+}

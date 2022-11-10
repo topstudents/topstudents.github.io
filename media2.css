@@ -1,0 +1,148 @@
+@media all and (max-width:440px){
+    .container{
+     width:100%;
+    } 
+
+    body{
+        height: 100%;
+        width: 440px;
+        display: block;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    .c1499{
+      display: none;
+    }
+
+    .navigation{
+      position: fixed;
+      bottom: 10px;
+      left: 98px;
+      width: 244px;
+      height: 50px;
+      background: #ffffff;
+      border-radius: 50px;
+      z-index: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    a{
+      text-decoration: none;
+    }
+
+    hr{
+      display: block;
+    }
+  
+    .nav1{
+      width: 30px;
+      height: 30px;
+      border: none;
+      background-image: url('images/рейтинг.png');
+      z-index: 1;
+      background-size: 28px 29px;
+      background-color: #ffffff;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+    }
+  
+    .nav2{
+      width: 30px;
+      height: 30px;
+      border: none;
+      background-image: url('images/info.png');
+      z-index: 1;
+      background-size: 28px 29px;
+      background-color: #ffffff;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+    }
+  
+    .nav3{
+      width: 30px;
+      height: 30px;
+      border: none;
+      background-image: url('images/support.png');
+      z-index: 1;
+      background-size: 28px 29px;
+      background-color: #ffffff;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+    }
+  
+
+    
+    .header{
+        background: #111;
+        height: 90px;
+        width: 440px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0%;
+    }
+    
+    .s1499{
+      position: absolute;
+      left: 285px;
+      top: 10px;
+    }
+
+    .head{
+        display: none;
+    }
+    
+    .vkl{
+        background: transparent;
+        font-size: 18px;
+        color: #ffffff;
+        border: none;
+    }
+    
+    
+    
+    .vkl:active{
+        color: rgb(100, 100, 100)
+    }
+    
+    
+    .info{
+      font-size: 35px;
+    margin-left: 125px;
+    margin-top: 50px;
+    }
+    
+    
+    .instruction{
+      margin-top: 100px;
+      margin-left: 20px;
+      width: 400px;
+      min-height: 680px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .instr{
+      font-size: 23px;
+      font-family: sans-serif;
+      font-weight: 500;
+  }
+
+
+
+}
